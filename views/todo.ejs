@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <title>Todo</title>
+    <link href="/ex_index.css" rel="stylesheet">
+    <script src="https://unpkg.com/vue@3.3.0/dist/vue.global.js"></script>
+  </head>
+  <body>
+    
+    <div id="main">
+        <h1>Todo</h1>
+
+        <h2><%= todo %></h2>
+        <h2>我是ID:<%= id %></h2>
+
+        <button class="click_btn" v-on:click="go_back()">Back</button>
+    </div>
+
+    <script src="/vue.js"></script>
+  </body>
+</html>

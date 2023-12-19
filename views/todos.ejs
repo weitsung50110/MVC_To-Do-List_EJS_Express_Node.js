@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <title>Todos</title>
+    <link href="/ex_index.css" rel="stylesheet">
+    <script src="https://unpkg.com/vue@3.3.0/dist/vue.global.js"></script>
+  </head>
+  <body>
+    <div id="main">
+    
+      <h1>Todos</h1>
+
+      <ul>
+      <% for(let i = 0; i < todos.length; i++) { %>
+        <li><%= todos[i]%></li>    // 加上等於代表後面的東西要輸出
+      <% } %>
+      </ul>
+
+      <input type="text" class="txt" value="Write numbers~">
+      <button v-on:click="go()">點我</button>
+    </div>
+  <script src="/vue.js"></script>
+  </body>
+</html>

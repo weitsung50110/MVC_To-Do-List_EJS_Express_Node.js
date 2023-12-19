@@ -1,0 +1,32 @@
+button {
+    background-color: rgb(107, 44, 19); /* Green */
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.click_btn {
+    background-color: rgb(107, 19, 81); /* Green */
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+li {
+    font-size: 20px;
+    color: rgb(65, 3, 3);
+}
+
+/* 由大到小的 RWD */
+.box1 {
+    height: 80px;
+    background: lightpink;
+}
